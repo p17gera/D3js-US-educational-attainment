@@ -83,6 +83,10 @@ label{
   font-family: "Muli", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !IMPORTANT;
      border-radius: 5px !IMPORTANT;
 }
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
 
 .radio-toolbar input[type="radio"] {
   display: none;
