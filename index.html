@@ -41,40 +41,50 @@ function StopSound(soundobj) {
 
 	
 <body>
-    <h1 class="title" input onmouseover='responsiveVoice.speak("Educational Attainment in the United States");'>Educational Attainment in the United States</h1>
-        <input onmouseover='responsiveVoice.speak("Hello World");' />
+    <h1 class="title" input onmouseover='responsiveVoice.speak("Educational Attainment in the United States");' 
+	onmouseout='responsiveVoice.pause();'>Educational Attainment in the United States</h1>
+
 	
 	<p><br></p>
-    <h2 class="subtitle" input onmouseover='responsiveVoice.speak("Nation-Wide Education Level of Population in Schooling");' onmouseout='responsiveVoice.pause();'>Nation-Wide Education Level of Population in Schooling</h2>
+    <h2 class="subtitle" input onmouseover='responsiveVoice.speak("Nation-Wide Education Level of Population in Schooling");' 
+	onmouseout='responsiveVoice.pause();'>Nation-Wide Education Level of Population in Schooling</h2>
 	
     <svg id="pie-chart" width="960" height="450"></svg><a name="regional"></a>
     <p><br><br><br></p>
-    <h2 class="subtitle" input onmouseover='responsiveVoice.speak("Educational Attainment: Region-level Breakdown of University Students");'>Educational Attainment: Region-level Breakdown of University Students</h2>
+    <h2 class="subtitle" input onmouseover='responsiveVoice.speak("Educational Attainment: Region-level Breakdown of University Students");' 
+	onmouseout='responsiveVoice.pause();'>Educational Attainment: Region-level Breakdown of University Students</h2>
 	
     <form id="tree-form">
         <div class="radio-toolbar">
             <input type="radio" id="mode1" name="treeSum" value="number" checked>
-            <label for="mode1" input onmouseover='responsiveVoice.speak("Pursuing a Masters degree (in # of students)");'>Pursuing a Masters degree (in # of students)</label>
+            <label for="mode1" input onmouseover='responsiveVoice.speak("Pursuing a Masters degree (in # of students)");' 
+		   onmouseout='responsiveVoice.pause();'>Pursuing a Masters degree (in # of students)</label>
             <input type="radio" id="mode2" name="treeSum" value="percent">
-            <label for="mode2" input onmouseover='responsiveVoice.speak("Pursuing a Masters degree (in %)");'>Pursuing a Masters degree (in %)</label>
+            <label for="mode2" input onmouseover='responsiveVoice.speak("Pursuing a Masters degree (in %)");' 
+		   onmouseout='responsiveVoice.pause();'>Pursuing a Masters degree (in %)</label>
             <input type="radio" id="mode3" name="treeSum" value="male">
-            <label for="mode3" input onmouseover='responsiveVoice.speak("Males in College (18-24yrs)(in %)");'>Males in College (18-24yrs)(in %)</label>
+            <label for="mode3" input onmouseover='responsiveVoice.speak("Males in College (18-24yrs)(in %)");' 
+		   onmouseout='responsiveVoice.pause();'>Males in College (18-24yrs)(in %)</label>
             <input type="radio" id="mode4" name="treeSum" value="femal">
-            <label for="mode4" input onmouseover='responsiveVoice.speak("Females in College (18-24yrs) (in %)");'>Females in College (18-24yrs) (in %)</label>
+            <label for="mode4" input onmouseover='responsiveVoice.speak("Females in College (18-24yrs) (in %)");' 
+		   onmouseout='responsiveVoice.pause();'>Females in College (18-24yrs) (in %)</label>
         </div>
     </form>
 	<p></p>
     <div id="chart"></div>
 	<a name="state"></a>
     <p><br><br></p>
-    <h2 class="subtitle" input onmouseover='responsiveVoice.speak("Education Level of Population in Schooling: State-level Breakdown");'>Education Level of Population in Schooling: State-level Breakdown</h2>
+    <h2 class="subtitle" input onmouseover='responsiveVoice.speak("Education Level of Population in Schooling: State-level Breakdown");' 
+	onmouseout='responsiveVoice.pause();'>Education Level of Population in Schooling: State-level Breakdown</h2>
 	
     <form id="stack-form">
         <div class="radio-toolbar">
             <input type="radio" id="radio1" name="mode" value="bypercent" checked>
-            <label for="radio1" input onmouseover='responsiveVoice.speak("Students (in %)");'>Students (in %)</label>
+            <label for="radio1" input onmouseover='responsiveVoice.speak("Students (in %)");' 
+		   onmouseout='responsiveVoice.pause();'>Students (in %)</label>
             <input type="radio" id="radio2" name="mode" value="bycount">
-            <label for="radio2" input onmouseover='responsiveVoice.speak("Students (in number of people)");'>Students (in number of people)</label>
+            <label for="radio2" input onmouseover='responsiveVoice.speak("Students (in number of people)");' 
+		   onmouseout='responsiveVoice.pause();'>Students (in number of people)</label>
     </div>
     </form>
     <div>
