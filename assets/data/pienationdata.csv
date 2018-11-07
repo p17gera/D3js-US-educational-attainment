@@ -1,5 +1,5 @@
 year,number,
-<p input onmouseover='responsiveVoice.speak(Nursery);</p>'Nursery  6%,5013351,
+input onmouseover='responsiveVoice.speak(Nursery);'Nursery  6%,5013351,
 Kindergarten  5%,4221320,
 Elementary: 1-4  20%,16511632,
 Elementary: 5-8  20%,16675078,
