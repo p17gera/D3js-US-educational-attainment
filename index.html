@@ -32,19 +32,30 @@
     <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 </head>
   <header>
-     	  
-       <nav>
-    <ul>
-      <li><a href="#top" onmouseover="PlaySound('mySound')" 
-    onmouseout="StopSound('mySound')">Top</a></li>
-      <li><a href="#national" onmouseover="PlaySound('mySound')" 
-    onmouseout="StopSound('mySound')">National</a></li>
-      <li><a href="#regional" onmouseover="PlaySound('mySound')" 
-    onmouseout="StopSound('mySound')">Regional</a></li>
-      <li><a href="#state" onmouseover="PlaySound('mySound')" 
-    onmouseout="StopSound('mySound')">State-Level</a></li>
-    <ul>
-        </nav>
+     			<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item" onmouseover="PlaySound('mySound')"onmouseout="StopSound('mySound')">
+						<a class="nav-link" href="#top">Top</a>
+					</li>
+					<li class="nav-item" onmouseover="PlaySound('mySound')"onmouseout="StopSound('mySound')">
+						<a class="nav-link" href="#national">National</a>
+					</li>
+					<li class="nav-item" onmouseover="PlaySound('mySound')"onmouseout="StopSound('mySound')">
+						<a class="nav-link" href="#regional">Regional</a>
+					</li>
+					<li class="nav-item" onmouseover="PlaySound('mySound')"onmouseout="StopSound('mySound')">
+						<a class="nav-link" href="#state">State-Level</a>
+					</li>
+				</ul>
+			</div> 
+		</nav>
        
  </header>
  <audio id='mySound' src='click.mp3'></audio>
